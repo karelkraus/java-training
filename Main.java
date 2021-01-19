@@ -1,4 +1,21 @@
 public class Main {
+	// test to connect with second file
+	String greeting = "Hello";
+	String gender = "Mr.";
+	String lname = "Bell";
+
+	//creating getter and setter
+	private int insuranceNo;
+
+	public int getInsurance() {
+		return insuranceNo;
+	}
+
+	public void setInsurance(int newInsurance) {
+		this.insuranceNo = newInsurance;
+	}
+
+
 	static void myMethod(String nick, int age2) {
 		String access = (age2 > 18) ? "Hey " + nick + ", you can enter :)" : "You are too young " + nick + ", go home!";
 		System.out.println(access);
